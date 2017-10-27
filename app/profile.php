@@ -9,10 +9,30 @@
 
 	<h1 class="text-center">HeroBook</h1>
 
-	<div class="row justify-content-md-center">
-		<div class="profilePage">
-			<a href="/app/index.php" class="btn btn-secondary active" role="button" aria-pressed="true">Home Page</a>
-		</div>
-	</div>	
+	<?php include('hero.php'); ?>
+
+	<ul>
+
+		<?php foreach (getHero() as $Hero) { ?>
+			<li>
+				<div class="profilePage">
+						
+					<div class="row justify-content-md-center">
+						<h2 class="profName"><?=$Hero['name']?></h2>
+
+						<?php $showimage = $Hero['image_url']; ?>
+						<img src="<?php echo $showimage; ?>" />
+
+						<p><?=$Hero['biography']?></p>
+						<a href="/app/index.php" class="btn btn-secondary active" role="button" aria-pressed="true">Home Page</a>
+					</div>
+
+				</div>
+
+			</li>
+		<?php } ?>
+
+	</ul>
+		
 </body>
 </html>

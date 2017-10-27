@@ -40,6 +40,13 @@ p {
     margin-top: 25px;
 }
 
+.profName {
+	font-family: adventure;
+	color: #febd0e;
+	font-size: 500%;
+	padding-top: 10px;	
+}
+
 .profilePage {
 	padding-bottom: 30px;
 	background-color: #999933;
