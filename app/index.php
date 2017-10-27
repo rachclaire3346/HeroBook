@@ -9,7 +9,7 @@
 
 	<h1 class="text-center">HeroBook</h1>
 
-	<?php include('/hero.php'); ?>
+	<?php include('hero.php'); ?>
 
 	<ul>
 
