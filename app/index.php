@@ -29,7 +29,7 @@
 
 						<div class="col col-lg-4">
 							<p><?=$Hero['about_me']?></p>
-							<a href="/app/profile.php" class="btn btn-secondary active" role="button" aria-pressed="true">View Profile</a>
+							<a href="profile.php" class="btn btn-secondary active" role="button" aria-pressed="true">View Profile</a>
 						</div>
 					</div>
 					
