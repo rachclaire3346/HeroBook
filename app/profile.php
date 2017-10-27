@@ -7,6 +7,8 @@
 </head>
 <body>
 
+	<h1 class="text-center">HeroBook</h1>
+
 	<div class="profilePage">
 	</div>
 
