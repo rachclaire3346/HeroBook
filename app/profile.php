@@ -10,6 +10,7 @@
 	<h1 class="text-center">HeroBook</h1>
 
 	<div class="profilePage">
+		<a href="/app/index.php" class="btn btn-secondary active" role="button" aria-pressed="true">View Profile</a>
 	</div>
 
 </body>
