@@ -1,6 +1,6 @@
 <?php
 
-require_once('../database.php');
+require_once('database.php');
 
 function getHero() {
     // Return a list of all palettes in the database
