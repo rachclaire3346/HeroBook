@@ -19,7 +19,10 @@
 						
 					<div class="row justify-content-md-center">
 						<h2 class="profName"><?=$Hero['name']?></h2>
-
+					</div>
+					
+						
+					<div class="row justify-content-md-center">
 						<?php $showimage = $Hero['image_url']; ?>
 						<img src="<?php echo $showimage; ?>" />
 
