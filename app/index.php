@@ -13,7 +13,7 @@
 
 	<ul>
 
-		<?php foreach (getHero($request) as $Hero) { ?>
+		<?php foreach (getHero() as $Hero) { ?>
 			<li>
 				<div class="profile">
 					<div class="row justify-content-md-center">
