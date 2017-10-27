@@ -1,0 +1,63 @@
+body {
+	background-color: #f6343c;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h1 {
+	font-family: bada;
+	font-size: 700%;
+	color: #febd0e;
+	padding-top: 10px;
+}
+
+h2 {
+	font-family: adventure;
+	color: #febd0e;
+	font-size: 300%;
+	padding-top: 10px;
+
+}
+
+p {
+	color: #000;
+	font-family: cartoon;
+	font-size: 200%;
+
+}
+
+.profile {
+	padding-bottom: 30px;
+	background-color: #999933;
+	border-style: solid;
+    border-width: 15px;
+    border-color: #41abde;
+    height: 350px;
+    width: 800px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+@font-face {
+    font-family: bada;
+    src: url(../fonts/bada/bada.TTF);
+}
+
+@font-face {
+    font-family: adventure;
+    src: url(../fonts/adventure/Adventure.otf);
+}
+
+@font-face {
+    font-family: cartoon;
+    src: url(../fonts/cartoon/true/cartoon.ttf);
+}
+
+
+
+
+
+
+
