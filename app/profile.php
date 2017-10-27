@@ -9,9 +9,10 @@
 
 	<h1 class="text-center">HeroBook</h1>
 
-	<div class="profilePage">
-		<a href="/app/index.php" class="btn btn-secondary active" role="button" aria-pressed="true">View Profile</a>
-	</div>
-
+	<div class="row justify-content-md-center">
+		<div class="profilePage">
+			<a href="/app/index.php" class="btn btn-secondary active" role="button" aria-pressed="true">Home Page</a>
+		</div>
+	</div>	
 </body>
 </html>
