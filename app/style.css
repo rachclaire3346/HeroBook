@@ -47,6 +47,14 @@ p {
 	padding-top: 10px;	
 }
 
+.profText {
+	color: #000;
+	font-family: cartoon;
+	font-size: 150%;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 .profilePage {
 	padding-bottom: 30px;
 	background-color: #999933;

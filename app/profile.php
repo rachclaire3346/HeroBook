@@ -21,12 +21,12 @@
 						<h2 class="profName"><?=$Hero['name']?></h2>
 					</div>
 					
-						
+
 					<div class="row justify-content-md-center">
 						<?php $showimage = $Hero['image_url']; ?>
 						<img src="<?php echo $showimage; ?>" />
 
-						<p><?=$Hero['biography']?></p>
+						<p class="profText"><?=$Hero['biography']?></p>
 						<a href="/app/index.php" class="btn btn-secondary active" role="button" aria-pressed="true">Home Page</a>
 					</div>
 
