@@ -7,5 +7,8 @@
 </head>
 <body>
 
+	<div class="profilePage">
+	</div>
+
 </body>
 </html>
