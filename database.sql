@@ -66,4 +66,19 @@ INSERT INTO ability_hero (hero_id, ability_id) VALUES (3, 1);
 INSERT INTO ability_hero (hero_id, ability_id) VALUES (4, 2);
 INSERT INTO ability_hero (hero_id, ability_id) VALUES (4, 6);
 INSERT INTO ability_hero (hero_id, ability_id) VALUES (5, 7);
+
+UPDATE heroes SET image_url = '../images/chillman.jpg' WHERE id='1';
+UPDATE heroes SET image_url = '../images/mental-mary.jpg' WHERE id='2';
+UPDATE heroes SET image_url = '../images/muscle.jpg' WHERE id='3';
+UPDATE heroes SET image_url = '../images/hummingbird.jpg' WHERE id='4';
+UPDATE heroes SET image_url = '../images/seer.jpg' WHERE id='5';
+
+
+SELECT * FROM heroes;
+
+
+
+
+
+
  
