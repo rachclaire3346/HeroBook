@@ -9,7 +9,7 @@
 
 	<h1 class="text-center">HeroBook</h1>
 
-	<?php include('hero.php'); ?>
+	<?php include('/hero.php'); ?>
 
 	<ul>
 
@@ -29,7 +29,7 @@
 
 						<div class="col col-lg-4">
 							<p><?=$Hero['about_me']?></p>
-							<a href="profile.php" class="btn btn-secondary active" role="button" aria-pressed="true">View Profile</a>
+							<a href="/profile.php" class="btn btn-secondary active" role="button" aria-pressed="true">View Profile</a>
 						</div>
 					</div>
 					
