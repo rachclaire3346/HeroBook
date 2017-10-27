@@ -1,8 +1,8 @@
-#Herobook - Facebook for Superheroes!
+# Herobook - Facebook for Superheroes!
 
 Create a website that helps superheroes stay in touch with their superfriends.
 
-##Objectives and requirements
+## Objectives and requirements
 
 To complete the assignment, you must:
 
@@ -13,11 +13,11 @@ Push your code to Github.
 Deploy your application and database to Heroku.
 You may use a CSS framework for styling if you wish. You can use Facebook's styling for inspiration or develop your own look and feel.
 
-##Data
+## Data
 
 The supplied superheroes.sql file contains create table and insert statements to get you started. You will need to customize the data a little, since image links were not provided. You can make other changes, too, if you wish.
 
-##Application file structure
+## Application file structure
 
 Minimally:
 
@@ -27,7 +27,7 @@ Make sure there's something to read in your README file.
 
 It's okay if your project has more files, or if you organize your code with subdirectories, but at the least you need the ones listed above.
 
-##Required Page
+## Required Page
 
 Your index.php file should list all the superheroes in your database.
 
@@ -48,7 +48,7 @@ You will need to include a Procfile so Heroku knows how to start your server.
 
 You will also need to add a PostgreSQL database to your Heroku app and duplicate your data there.
 
-##Stretch Goals
+## Stretch Goals
 
 If you complete the basic superhero roster, your next step is to make each hero's name a link that opens their profile page.
 
