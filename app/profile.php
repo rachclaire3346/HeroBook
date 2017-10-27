@@ -30,6 +30,13 @@
 						<a href="/app/index.php" class="btn btn-secondary active" role="button" aria-pressed="true">Home Page</a>
 					</div>
 
+					<div class="row justify-content-md-center">
+						<?php $showimage = $Hero['image_url']; ?>
+						<img src="<?php echo $showimage; ?>" />
+
+						<p class="profText"><?=$Hero['biography']?></p>
+					</div>
+
 				</div>
 
 			</li>
